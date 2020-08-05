@@ -7,15 +7,15 @@
   
   <title>APUE学习笔记 | Anon&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="第5章 标准I&#x2F;O库第7章 进程环境第8章 进程控制第11章 线程第13章 守护进程第14章 高级IO第15章 进程间通信第16章 网络IPC：套接字">
+  <meta name="description" content="第3章 文件I&#x2F;O第4章 文件和目录第5章 标准I&#x2F;O库第6章 系统数据文件和信息第7章 进程环境第8章 进程控制第9章 进程关系第10章 信号第11章 线程第13章 守护进程第14章 高级IO第15章 进程间通信第16章 网络IPC：套接字第17章 高级进程间通信第18章 终端I&#x2F;O">
 <meta property="og:type" content="article">
 <meta property="og:title" content="APUE学习笔记">
 <meta property="og:url" content="http://yoursite.com/2020/07/29/APUE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Anon&#39;s Blog">
-<meta property="og:description" content="第5章 标准I&#x2F;O库第7章 进程环境第8章 进程控制第11章 线程第13章 守护进程第14章 高级IO第15章 进程间通信第16章 网络IPC：套接字">
+<meta property="og:description" content="第3章 文件I&#x2F;O第4章 文件和目录第5章 标准I&#x2F;O库第6章 系统数据文件和信息第7章 进程环境第8章 进程控制第9章 进程关系第10章 信号第11章 线程第13章 守护进程第14章 高级IO第15章 进程间通信第16章 网络IPC：套接字第17章 高级进程间通信第18章 终端I&#x2F;O">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-07-29T08:30:14.000Z">
-<meta property="article:modified_time" content="2020-07-29T09:58:33.039Z">
+<meta property="article:modified_time" content="2020-08-05T11:29:07.179Z">
 <meta property="article:author" content="Anon">
 <meta name="twitter:card" content="summary">
   
@@ -88,11 +88,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="第5章-标准I-O库"><a href="#第5章-标准I-O库" class="headerlink" title="第5章 标准I/O库"></a><a href="/book/APUE/第5章标准IO库.html">第5章 标准I/O库</a></h3><h3 id="第7章-进程环境"><a href="#第7章-进程环境" class="headerlink" title="第7章 进程环境"></a><a href="/book/APUE/第7章进程环境.html">第7章 进程环境</a></h3><h3 id="第8章-进程控制"><a href="#第8章-进程控制" class="headerlink" title="第8章 进程控制"></a><a href="/book/APUE/第8章进程控制.html">第8章 进程控制</a></h3><h3 id="第11章-线程"><a href="#第11章-线程" class="headerlink" title="第11章 线程"></a><a href="/book/APUE/第11章线程.html">第11章 线程</a></h3><h3 id="第13章-守护进程"><a href="#第13章-守护进程" class="headerlink" title="第13章 守护进程"></a><a href="/book/APUE/第13章守护进程.html">第13章 守护进程</a></h3><h3 id="第14章-高级IO"><a href="#第14章-高级IO" class="headerlink" title="第14章 高级IO"></a><a href="/book/APUE/第14章高级IO.html">第14章 高级IO</a></h3><h3 id="第15章-进程间通信"><a href="#第15章-进程间通信" class="headerlink" title="第15章 进程间通信"></a><a href="/book/APUE/第15章进程间通信.html">第15章 进程间通信</a></h3><h3 id="第16章-网络IPC：套接字"><a href="#第16章-网络IPC：套接字" class="headerlink" title="第16章 网络IPC：套接字"></a><a href="/book/APUE/第16章网络IPC：套接字.html">第16章 网络IPC：套接字</a></h3>
+        <h3 id="第3章-文件I-O"><a href="#第3章-文件I-O" class="headerlink" title="第3章 文件I/O"></a><a href="/book/APUE/第3章文件IO.html">第3章 文件I/O</a></h3><h3 id="第4章-文件和目录"><a href="#第4章-文件和目录" class="headerlink" title="第4章 文件和目录"></a><a href="/book/APUE/第4章文件和目录.html">第4章 文件和目录</a></h3><h3 id="第5章-标准I-O库"><a href="#第5章-标准I-O库" class="headerlink" title="第5章 标准I/O库"></a><a href="/book/APUE/第5章标准IO库.html">第5章 标准I/O库</a></h3><h3 id="第6章-系统数据文件和信息"><a href="#第6章-系统数据文件和信息" class="headerlink" title="第6章 系统数据文件和信息"></a><a href="/book/APUE/第6章系统数据文件和信息.html">第6章 系统数据文件和信息</a></h3><h3 id="第7章-进程环境"><a href="#第7章-进程环境" class="headerlink" title="第7章 进程环境"></a><a href="/book/APUE/第7章进程环境.html">第7章 进程环境</a></h3><h3 id="第8章-进程控制"><a href="#第8章-进程控制" class="headerlink" title="第8章 进程控制"></a><a href="/book/APUE/第8章进程控制.html">第8章 进程控制</a></h3><h3 id="第9章-进程关系"><a href="#第9章-进程关系" class="headerlink" title="第9章 进程关系"></a><a href="/book/APUE/第9章进程关系.html">第9章 进程关系</a></h3><h3 id="第10章-信号"><a href="#第10章-信号" class="headerlink" title="第10章 信号"></a><a href="/book/APUE/第10章信号.html">第10章 信号</a></h3><h3 id="第11章-线程"><a href="#第11章-线程" class="headerlink" title="第11章 线程"></a><a href="/book/APUE/第11章线程.html">第11章 线程</a></h3><h3 id="第13章-守护进程"><a href="#第13章-守护进程" class="headerlink" title="第13章 守护进程"></a><a href="/book/APUE/第13章守护进程.html">第13章 守护进程</a></h3><h3 id="第14章-高级IO"><a href="#第14章-高级IO" class="headerlink" title="第14章 高级IO"></a><a href="/book/APUE/第14章高级IO.html">第14章 高级IO</a></h3><h3 id="第15章-进程间通信"><a href="#第15章-进程间通信" class="headerlink" title="第15章 进程间通信"></a><a href="/book/APUE/第15章进程间通信.html">第15章 进程间通信</a></h3><h3 id="第16章-网络IPC：套接字"><a href="#第16章-网络IPC：套接字" class="headerlink" title="第16章 网络IPC：套接字"></a><a href="/book/APUE/第16章网络IPC：套接字.html">第16章 网络IPC：套接字</a></h3><h3 id="第17章-高级进程间通信"><a href="#第17章-高级进程间通信" class="headerlink" title="第17章 高级进程间通信"></a><a href="/book/APUE/第17章高级进程间通信.html">第17章 高级进程间通信</a></h3><h3 id="第18章-终端I-O"><a href="#第18章-终端I-O" class="headerlink" title="第18章 终端I/O"></a><a href="/book/APUE/第18章终端IO.html">第18章 终端I/O</a></h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/29/APUE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="ckd77b8810000nkny6cu47tze" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/07/29/APUE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="ckdhajpfu000008ny9ylt722s" class="article-share-link">Share</a>
       
       
     </footer>
